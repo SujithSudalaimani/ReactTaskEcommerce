@@ -67,7 +67,7 @@ const NavBarCart = ({cartvalue, setCartvalue}) => {
                 <div key={index} >
                     <div className="bg-cyan-950 rounded-lg">
                     <div className="flex justify-between px-5 py-5 gap-10 ">
-                   <div className="group relative shadow-xl/20 rounded-xl md:w-20 lg:w-20 lg:h-10">
+                   <div className="group relative shadow-xl/20 rounded-xl md:w-20 md:h-5 lg:w-20 lg:h-10">
                   <img
                     alt="no image"
                     src= {product.image}
