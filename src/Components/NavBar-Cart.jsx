@@ -67,11 +67,11 @@ const NavBarCart = ({cartvalue, setCartvalue}) => {
                 <div key={index} >
                     <div className="bg-cyan-950 rounded-lg">
                     <div className="flex justify-between px-5 py-5 gap-10 ">
-                   <div className="group relative shadow-xl/20 rounded-xl lg:w-20 lg:h-10">
+                   <div className="group relative shadow-xl/20 rounded-xl md:w-20 md:h-5 lg:w-20 lg:h-10">
                   <img
                     alt="no image"
                     src= {product.image}
-                    className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-12 lg:w-40 md:w-14 md:h-10"
+                    className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-12 lg:w-40 "
                   />
                   </div>
                   <p className="text-md font-bold text-amber-400">
