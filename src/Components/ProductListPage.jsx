@@ -31,7 +31,7 @@ const ProductListPage = ({ product }) => {
       <div className="bg-[#0d0c0c]">
        {/* <p>{ProdAlert}</p>  */}
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <div className="mt-6 grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid:cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-x-6 gap-y-10 xl:gap-x-8">
+          <div className="mt-6 grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-3 md:grid:cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-x-6 gap-y-10 xl:gap-x-8">
             {product.map((product, index) => (
               
               <div key={index}>
