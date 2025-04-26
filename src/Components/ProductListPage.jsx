@@ -49,19 +49,19 @@ const ProductListPage = ({ product }) => {
                     </div>
                   </div>
                   <div className="flex justify-between px-5 mt-3 items-center">
-                    <p className="mt-1 text-sm md:text-[9px] lg:text-sm text-amber-300 bg-[#51524d] px-2 py-1 rounded ">
+                    <p className="mt-1 text-[10px] sm:text-sm md:text-[9px] lg:text-sm xl:text-sm text-amber-300 bg-[#51524d] px-2 py-1 rounded ">
                       <FontAwesomeIcon
                         icon={faStar}
-                        className="text-amber-300"
+                        className="sm:text-amber-300 md:text-amber-300 lg:text-amber-300 xl:text-amber-300"
                       />{" "}
                       {product.rating?.rate}
                     </p>
-                    <p className="text-xl lg:text-xl md:text-[14px] font-bold text-[#ede9e6]">
+                    <p className="text-xs sm:text-xl md:text-xl lg:text-xl xl:text-xl md:text-[14px] font-bold text-[#ede9e6]">
                       ${product.price}
                     </p>
-                    <p className="text-sm md:text-[9px] lg:text-sm font-medium text-amber-300  bg-[#51524d] px-2 py-1 rounded">
+                    <p className="text-[10px] sm:text-sm md:text-[9px] lg:text-sm xl:text-smfont-medium text-amber-300  bg-[#51524d] px-2 py-1 rounded">
                       {product.rating?.count}
-                      <span className="text-xs text-amber-300"> Buys</span>
+                      <span className=" md:text-xs lg:text-xs xl:text-xs text-[10px] text-amber-300"> Buys</span>
                     </p>
                   </div>
 

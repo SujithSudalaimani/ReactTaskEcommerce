@@ -56,7 +56,7 @@ const NavBarCart = ({cartvalue, setCartvalue}) => {
           </div>
           <div
             tabIndex={0}
-            className="card card-compact dropdown-content bg-base-100 z-1 mt-5 xl:w-150 shadow max-h-90 overflow-y-auto"
+            className="card card-compact dropdown-content bg-base-100 z-1 mt-5  w-93 sm:w-150 md:w-150 lg:w-150 xl:w-150 shadow max-h-90 overflow-y-auto"
           >
             <div className="card-body">
                 <div className="flex justify-between">
@@ -67,11 +67,11 @@ const NavBarCart = ({cartvalue, setCartvalue}) => {
                 <div key={index} >
                     <div className="bg-cyan-950 rounded-lg">
                     <div className="flex justify-between px-5 py-5 gap-10 ">
-                   <div className="group relative shadow-xl/20 rounded-xl md:w-20 md:h-2 lg:w-20 lg:h-10">
+                   <div className="group relative shadow-xl/20 rounded-xl w-[3rem] h-6 lg:w-20 lg:h-10">
                   <img
                     alt="no image"
                     src= {product.image}
-                    className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-12 lg:w-40 md:w-14 md:h-10"
+                    className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-12 lg:w-40"
                   />
                   </div>
                   <p className="text-md font-bold text-amber-400">
