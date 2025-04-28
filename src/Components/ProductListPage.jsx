@@ -39,7 +39,7 @@ const ProductListPage = ({ product }) => {
                   <img
                     alt="no image"
                     src={product.image}
-                    className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80 xs:h-10"
+                    className="aspect-square w-full object-contain rounded-lg bg-neutral-50 group-hover:opacity-75 lg:aspect-auto lg:h-80 xs:h-10"
                   />
                   <div className="mt-4 flex px-5">
                     <div>
